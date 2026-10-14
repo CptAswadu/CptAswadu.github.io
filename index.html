@@ -8,29 +8,71 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 850px;
+      max-width: 900px;
       margin: 60px auto;
       padding: 0 24px;
       line-height: 1.7;
       color: #222;
     }
-    h1 { margin-bottom: 0; }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .profile-photo {
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #ddd;
+    }
+
+    .header-text h1 {
+      margin: 0 0 8px 0;
+    }
+
+    .subtitle {
+      color: #666;  
+      margin: 0;
+    }
+
     h2 {
       margin-top: 40px;
       border-bottom: 1px solid #ddd;
       padding-bottom: 8px;
     }
-    a { color: #1769aa; }
-    .subtitle { color: #666; }
+
+    a {
+      color: #1769aa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
+  <div class="header">
+    <img
+  src="https://github.com/CptAswadu.png"
+  alt="Junyoung Kim"
+  class="profile-photo"
+>
+
+    <div class="header-text">
   <h1>Junyoung Kim</h1>
   <p class="subtitle">
     Ph.D. Student in Biomedical Informatics<br>
     McWilliams School of Biomedical Informatics<br>
     UTHealth Houston
-  </p>
+     </p>
+   </div>
+  </div>
 
   <h2>About Me</h2>
   <p>
