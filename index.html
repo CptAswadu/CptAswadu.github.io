@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic homepage of Junyoung Kim, Ph.D. student in Biomedical Informatics at UTHealth Houston.">
   <title>Junyoung Kim | Academic Homepage</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -36,7 +38,7 @@
     }
 
     .subtitle {
-      color: #666;  
+      color: #666;
       margin: 0;
     }
 
@@ -44,6 +46,10 @@
       margin-top: 40px;
       border-bottom: 1px solid #ddd;
       padding-bottom: 8px;
+    }
+
+    h3 {
+      margin-top: 28px;
     }
 
     a {
@@ -54,50 +60,79 @@
     a:hover {
       text-decoration: underline;
     }
+
+    .publication {
+      margin-bottom: 24px;
+    }
+
+    .publication-title {
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        margin: 30px auto;
+      }
+
+      .header {
+        gap: 18px;
+      }
+
+      .profile-photo {
+        width: 140px;
+        height: 140px;
+      }
+    }
   </style>
 </head>
+
 <body>
+
+  <!-- Profile -->
   <div class="header">
     <img
-  src="https://github.com/CptAswadu.png"
-  alt="Junyoung Kim"
-  class="profile-photo"
->
+      src="https://github.com/CptAswadu.png"
+      alt="Junyoung Kim"
+      class="profile-photo"
+    >
 
     <div class="header-text">
-  <h1>Junyoung Kim</h1>
-  <p class="subtitle">
-    Ph.D. Student in Biomedical Informatics<br>
-    McWilliams School of Biomedical Informatics<br>
-    UTHealth Houston
-     </p>
-   </div>
+      <h1>Junyoung Kim</h1>
+      <p class="subtitle">
+        Ph.D. Student in Biomedical Informatics<br>
+        McWilliams School of Biomedical Informatics<br>
+        UTHealth Houston
+      </p>
+    </div>
   </div>
 
+  <!-- About Me -->
   <h2>About Me</h2>
+
   <p>
     I am a Ph.D. student in Biomedical Informatics
-  at UTHealth Houston, advised by Dr. Kirk Roberts.
-  My research interests lie at the intersection of
-  clinical natural language processing, large language
-  models, and trustworthy AI, with a particular focus
-  on reliable question answering over electronic
-  health records.
+    at UTHealth Houston, advised by Dr. Kirk Roberts.
+    My research interests lie at the intersection of
+    clinical natural language processing, large language
+    models, and trustworthy AI, with a particular focus
+    on reliable question answering over electronic
+    health records.
   </p>
 
   <p>
-   Previously, I conducted research at Boston
-  Children's Hospital and Columbia University,
-  focusing on large language models for healthcare,
-  rare disease diagnosis, and genetic testing workflows.
-  I hold an M.A. in Statistics from Columbia University.
-</p>
-
-  <p>
-    Love Baseketball, Huge Foodie
+    Previously, I conducted research at Boston
+    Children's Hospital and Columbia University,
+    focusing on large language models for healthcare,
+    rare disease diagnosis, and genetic testing workflows.
+    I hold an M.A. in Statistics from Columbia University.
   </p>
 
+  <p>
+    Outside of research, I enjoy playing basketball
+    and exploring new restaurants and cuisines.
+  </p>
 
+  <!-- Research Interests -->
   <h2>Research Interests</h2>
   <ul>
     <li>Clinical Natural Language Processing</li>
@@ -106,137 +141,139 @@
     <li>Trustworthy AI for Healthcare</li>
   </ul>
 
+  <!-- Publications -->
   <h2>Publications</h2>
 
-<p>
-  <strong>
-    <a href="https://scholar.google.com/citations?user=oZcNyu0AAAAJ&citation_for_view=oZcNyu0AAAAJ:u-x6o8ySG0sC"
+  <div class="publication">
+    <a class="publication-title"
+       href="https://doi.org/10.1016/j.ajhg.2024.08.010"
        target="_blank" rel="noopener noreferrer">
       Assessing the utility of large language models for
       phenotype-driven gene prioritization in the
       diagnosis of rare genetic disease
-    </a>
-  </strong><br>
-  <strong>J. Kim</strong>, K. Wang, C. Weng, C. Liu.<br>
-  <em>The American Journal of Human Genetics</em>, 2024.
-</p>
+    </a><br>
+    <strong>J. Kim</strong>, K. Wang, C. Weng, C. Liu.<br>
+    <em>The American Journal of Human Genetics</em>, 2024.
+  </div>
 
-<p>
-  <strong>
-    <a href="https://scholar.google.com/citations?user=oZcNyu0AAAAJ&citation_for_view=oZcNyu0AAAAJ:u5HHmVD_uO8C"
+  <div class="publication">
+    <a class="publication-title"
+       href="https://doi.org/10.1016/j.jbi.2022.104227"
        target="_blank" rel="noopener noreferrer">
       Deep learning for rare disease: A scoping review
-    </a>
-  </strong><br>
-  J. Lee, C. Liu, <strong>J. Kim</strong>, et al.<br>
-  <em>Journal of Biomedical Informatics</em>, 2022.
-</p>
+    </a><br>
+    J. Lee, C. Liu, <strong>J. Kim</strong>, et al.<br>
+    <em>Journal of Biomedical Informatics</em>, 2022.
+  </div>
 
-<p>
-  <strong>
-    <a href="https://scholar.google.com/citations?user=oZcNyu0AAAAJ&citation_for_view=oZcNyu0AAAAJ:d1gkVwhDpl0C"
+  <div class="publication">
+    <a class="publication-title"
+       href="https://doi.org/10.1186/s12911-025-03277-0"
        target="_blank" rel="noopener noreferrer">
-      PRICE: A personalized recursive intelligent
-      cost effectiveness analysis framework
-      for rare disease diagnosis
-    </a>
-  </strong><br>
-  M. Nie, Y. Yao, <strong>J. Kim</strong>, C. Liu.<br>
-  <em>BMC Medical Informatics and Decision Making</em>, 2025.
-</p>
+      PRICE: A personalized recursive intelligent cost
+      effectiveness analysis framework for rare disease
+      diagnosis
+    </a><br>
+    M. Nie, Y. Yao, <strong>J. Kim</strong>, C. Liu.<br>
+    <em>BMC Medical Informatics and Decision Making</em>,
+    2025.
+  </div>
 
-<p>
-  <strong>
-    <a href="https://scholar.google.com/citations?user=oZcNyu0AAAAJ&citation_for_view=oZcNyu0AAAAJ:2osOgNQ5qMEC"
+  <div class="publication">
+    <a class="publication-title"
+       href="https://doi.org/10.21203/rs.3.rs-8746188/v1"
        target="_blank" rel="noopener noreferrer">
       FHIR-AgentEval: A modular sandbox for benchmarking
       clinical LLM agents with an evaluation of
       memory-augmented configurations
+    </a><br>
+    Y. Mokssit, K. Ravi, M. Nie,
+    <strong>J. Kim</strong>, C. Liu.<br>
+    <em>Research Square</em>, 2026. (Preprint)
+  </div>
+
+  <h3>Manuscripts Under Review</h3>
+
+  <div class="publication">
+    <strong>
+      Evaluating Retrieval-Enabled Large Language Models
+      for Genetic Testing Insurance Workflows:
+      A Stage-Wise Assessment of Retrieval and Reliability
+    </strong><br>
+    <strong>J. Kim</strong>, K. Ravi, A. Afyouni, C. Liu.<br>
+    <em>Journal of the American Medical Informatics
+    Association (JAMIA)</em> — Under Review.
+  </div>
+
+  <p>
+    <a href="https://scholar.google.com/citations?user=oZcNyu0AAAAJ"
+       target="_blank" rel="noopener noreferrer">
+      View all publications on Google Scholar &rarr;
     </a>
-  </strong><br>
-  Y. Mokssit, K. Ravi, M. Nie, <strong>J. Kim</strong>, C. Liu.<br>
-  <em>Research Square</em>, 2026. (Preprint)
-</p>
+  </p>
 
-<h3>Manuscripts Under Review</h3>
-
-<p>
-  <strong>
-    Evaluating Retrieval-Enabled Large Language Models for 
-    Genetic Testing Insurance Workflows: 
-    A Stage-Wise Assessment of Retrieval and Reliability
-  </strong><br>
-  <strong>J. Kim</strong>, K. Ravi, A. Afyouni, C. Liu.<br>
-  <em>Journal of the American Medical Informatics
-  Association (JAMIA)</em> — Under Review.
-</p>
-
-<p>
-  <a href="https://scholar.google.com/citations?user=oZcNyu0AAAAJ"
-     target="_blank" rel="noopener noreferrer">
-    View all publications on Google Scholar &rarr;
-  </a>
-</p>
-  
+  <!-- Education -->
   <h2>Education</h2>
 
-<p>
-  <strong>UTHealth Houston</strong><br>
-  Ph.D. in Biomedical Informatics,
-  2026–Present
-</p>
+  <p>
+    <strong>UTHealth Houston</strong><br>
+    Ph.D. in Biomedical Informatics, 2026–Present
+  </p>
 
-<p>
-  <strong>Columbia University</strong><br>
-  M.A. in Statistics, 2023
-</p>
+  <p>
+    <strong>Columbia University</strong><br>
+    M.A. in Statistics, 2023
+  </p>
 
-<p>
-  <strong>Chung-Ang University</strong><br>
-  B.A. in Applied Statistics,
-  Minor in Economics, 2021
-</p>
+  <p>
+    <strong>Chung-Ang University</strong><br>
+    B.A. in Applied Statistics,
+    Minor in Economics, 2021
+  </p>
 
-  
-<h2>Research Experience</h2>
+  <!-- Research Experience -->
+  <h2>Research Experience</h2>
 
-<p>
-  <strong>UTHealth Houston</strong><br>
-  Graduate Research Assistant | 2026–Present<br>
-  Advisor: Dr. Kirk Roberts<br>
-  Clinical NLP, multi-hop question answering,
-  and agentic AI for healthcare.
-</p>
+  <p>
+    <strong>UTHealth Houston</strong><br>
+    Graduate Research Assistant | 2026–Present<br>
+    Advisor: Dr. Kirk Roberts<br>
+    Clinical NLP, multi-hop question answering,
+    and agentic AI for healthcare.
+  </p>
 
-<p>
-  <strong>Boston Children's Hospital</strong><br>
-  Computational Research Assistant | 2025–2026<br>
-  CliGenAI Lab | PI: Dr. Cong Liu<br>
-  LLM agents, retrieval-augmented generation,
-  and genetic testing insurance workflows.
-</p>
+  <p>
+    <strong>Boston Children's Hospital</strong><br>
+    Computational Research Assistant | 2025–2026<br>
+    CliGenAI Lab | PI: Dr. Cong Liu<br>
+    LLM agents, retrieval-augmented generation,
+    and genetic testing insurance workflows.
+  </p>
 
-<p>
-  <strong>Columbia University</strong><br>
-  Research Assistant | 2022–2025<br>
-  Weng Lab | PI: Dr. Chunhua Weng<br>
-  Phenotype-driven gene prioritization,
-  rare disease diagnosis, and biomedical NLP.
-</p>
+  <p>
+    <strong>Columbia University</strong><br>
+    Research Assistant | 2022–2025<br>
+    Weng Lab | PI: Dr. Chunhua Weng<br>
+    Phenotype-driven gene prioritization,
+    rare disease diagnosis, and biomedical NLP.
+  </p>
 
-
+  <!-- Contact -->
   <h2>Contact</h2>
+
   <p>
     Email:
-    <a href="mailto: Junyoung.Kim@uth.tmc.edu">
+    <a href="mailto:Junyoung.Kim@uth.tmc.edu">
       Junyoung.Kim@uth.tmc.edu
     </a>
     <br>
-    
+
     GitHub:
-    <a href="https://github.com/CptAswadu">
+    <a href="https://github.com/CptAswadu"
+       target="_blank" rel="noopener noreferrer">
       github.com/CptAswadu
     </a>
   </p>
+
 </body>
 </html>
